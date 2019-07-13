@@ -48,7 +48,7 @@ form.search::after {
 #home-section {
   background: url(../img/showcase1.jpg) no-repeat top center fixed/cover;
   position: relative;
-  min-height: 600px;
+  height: 600px;
 
   padding-top: 6rem;
 }
