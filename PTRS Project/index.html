@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>PTRS</title>
+  <link rel="icon" type="image/ico" href="img/logo.png" />
+  
+</head>
+
+<body>
+<!-- START HERE -->
+      
+<!--Navbar-->
+
+<nav class="navbar navbar-expand-xl navbar-light bg-light ">
+
+  <!-- Navbar-Brand -->
+  <a class="navbar-brand" href="#"><img src="img/logo.png" width="50px" alt=""> PTRS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Categories -->
+  <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-2 ">
+      <li class="nav-item dropdown ">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Categories
+        </button>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Subjects</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Math</a>
+            <a class="dropdown-item" href="#">Physics</a>
+            <a class="dropdown-item" href="#">Chemistry</a>
+            <a class="dropdown-item" href="#">Biology</a>
+            <a class="dropdown-item" href="#">Bangla</a>
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">Religion</a>
+        </div>
+      </li>
+                              
+    </ul>
+
+    <!-- Form -->
+    <form class="form-inline mx-2 my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+    <ul class="navbar-nav mr-auto">
+
+      
+      
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="tutors.html">Learn With PTRS</a>
+      </li>
+            
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="#">Courses In PTRS</a>
+      </li>
+      
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+      
+      <li class="nav-item dropdown mx-2">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <i class="fas fa-archive"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <h6 class="dropdown-header">Archieve Is Empty</h6>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Maths</a>
+          <a class="dropdown-item" href="#">Physics</a>
+          <a class="dropdown-item" href="#">Chemistry</a>
+          <a class="dropdown-item" href="#">Biology</a>
+          <a class="dropdown-item" href="#">Bangla</a>
+          <a class="dropdown-item" href="#">English</a>
+        </div>
+      </li>
+      
+      <li class="nav-items mx-2">
+        <a class="nav-link" href="#">
+        <i class="fas fa-user-plus"></i> Register
+        </a>
+      </li>
+      
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="">
+        <i class="fas fa-sign-in-alt"></i> Log In
+        </a>
+      </li>
+       
+    </ul>
+    
+    
+  </div>
+</nav>     
+ 
+
+<!--EndNav-->
+
+<!--Showcase-->
+<header id="home-section">
+  <div class="container">
+    <div class="schedule col-sm-12 col-md-7">
+        <h5 >Choose your schedule Anytime</h5>
+        <p class="lead">Study any topic, anytime. Choose from thousands of expert-led courses now.</p>
+        <!-- Search form -->
+        <form class="search" action="">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>         
+    </div>      
+  </div>
+
+<!--EndShowcase-->
+
+<!--Popular Courses-->      
+<section id="courses" class="py-5 bg-dark">
+  <div class="container">
+     
+   <div class="text-light">
+      <p class="h1">Popular Courses</p>
+   </div>    
+     
+
+
+    <div class="row py-5">
+
+        <div class="col-md-4">
+          <a href="course.html" class="card  border-secondary mb-resp">
+            <div class="card-body">
+              <img src="img/c1.jpg" width="100%" alt="">
+              <p class="h4 text-secondary font-weight-bold p-2 ">SSC Bangla 1st Part</p>
+              <p class="text-muted pl-2"><span class="font-weight-bold">Tutor:</span> <span class="font-italic">John Doe</span></p>
+
+              <div id="rateYo1"></div>
+              <script src="jquery.js"></script>
+              <script src="jquery.rateyo.js"></script>
+              
+              <div class="float-right">
+                <p class="h4 text-secondary font-weight-bold p-2">$12.99</p> 
+              </div><br>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="course.html" class="card  border-secondary mb-resp">
+            <div class="card-body">
+              <img src="img/c2.jpg" width="100%" alt="">
+              <p class="h4 text-secondary font-weight-bold p-2 ">SSC Bangla 1st Part</p>
+              <p class="text-muted pl-2"><span class="font-weight-bold">Tutor:</span> <span class="font-italic">John Doe</span></p>
+
+              <div id="rateYo2"></div>
+              <script src="jquery.js"></script>
+              <script src="jquery.rateyo.js"></script>
+              
+              <div class="float-right">
+                <p class="h4 text-secondary font-weight-bold p-2">$12.99</p> 
+              </div><br>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="course.html" class="card  border-secondary mb-resp">
+            <div class="card-body">
+              <img src="img/c3.jpg" width="100%" alt="">
+              <p class="h4 text-secondary font-weight-bold p-2 ">SSC Bangla 1st Part</p>
+              <p class="text-muted pl-2"><span class="font-weight-bold">Tutor:</span> <span class="font-italic">John Doe</span></p>
+
+              <div id="rateYo3"></div>
+              <script src="jquery.js"></script>
+              <script src="jquery.rateyo.js"></script>
+              
+              <div class="float-right">
+                <p class="h4 text-secondary font-weight-bold p-2">$12.99</p> 
+              </div><br>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="course.html" class="card  border-secondary mb-resp">
+            <div class="card-body">
+              <img src="img/c4.jpg" width="100%" alt="">
+              <p class="h4 text-secondary font-weight-bold p-2 ">SSC Bangla 1st Part</p>
+              <p class="text-muted pl-2"><span class="font-weight-bold">Tutor:</span> <span class="font-italic">John Doe</span></p>
+
+              <div id="rateYo4"></div>
+              <script src="jquery.js"></script>
+              <script src="jquery.rateyo.js"></script>
+              
+              <div class="float-right">
+                <p class="h4 text-secondary font-weight-bold p-2">$12.99</p> 
+              </div><br>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="course.html" class="card  border-secondary mb-resp">
+            <div class="card-body">
+              <img src="img/c5.jpg" width="100%" alt="">
+              <p class="h4 text-secondary font-weight-bold p-2 ">SSC Bangla 1st Part</p>
+              <p class="text-muted pl-2"><span class="font-weight-bold">Tutor:</span> <span class="font-italic">John Doe</span></p>
+
+              <div id="rateYo5"></div>
+              <script src="jquery.js"></script>
+              <script src="jquery.rateyo.js"></script>
+              
+              <div class="float-right">
+                <p class="h4 text-secondary font-weight-bold p-2">$12.99</p> 
+              </div><br>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="course.html" class="card  border-secondary mb-resp">
+            <div class="card-body">
+              <img src="img/c6.jpg" width="100%" alt="">
+              <p class="h4 text-secondary font-weight-bold p-2 ">SSC Bangla 1st Part</p>
+              <p class="text-muted pl-2"><span class="font-weight-bold">Tutor:</span> <span class="font-italic">John Doe</span></p>
+
+              <div id="rateYo6"></div>
+              <script src="jquery.js"></script>
+              <script src="jquery.rateyo.js"></script>
+              
+              <div class="float-right">
+                <p class="h4 text-secondary font-weight-bold p-2">$12.99</p> 
+              </div><br>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="course.html" class="card  border-secondary mb-resp">
+            <div class="card-body">
+              <img src="img/c7.jpg" width="100%" alt="">
+              <p class="h4 text-secondary font-weight-bold p-2 ">SSC Bangla 1st Part</p>
+              <p class="text-muted pl-2"><span class="font-weight-bold">Tutor:</span> <span class="font-italic">John Doe</span></p>
+
+              <div id="rateYo7"></div>
+              <script src="jquery.js"></script>
+              <script src="jquery.rateyo.js"></script>
+              
+              <div class="float-right">
+                <p class="h4 text-secondary font-weight-bold p-2">$12.99</p> 
+              </div><br>
+            </div>
+          </a>
+        </div>
+
+       <div class="col-md-4">
+          <a href="course.html" class="card  border-secondary mb-resp">
+            <div class="card-body">
+              <img src="img/c8.jpg" width="100%" alt="">
+              <p class="h4 text-secondary font-weight-bold p-2 ">SSC Bangla 1st Part</p>
+              <p class="text-muted pl-2"><span class="font-weight-bold">Tutor:</span> <span class="font-italic">John Doe</span></p>
+
+              <div id="rateYo8"></div>
+              <script src="jquery.js"></script>
+              <script src="jquery.rateyo.js"></script>
+              
+              <div class="float-right">
+                <p class="h4 text-secondary font-weight-bold p-2">$12.99</p> 
+              </div><br>
+            </div>
+          </a>
+        </div>
+      </div>  
+
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+
+  </div>
+</section>
+
+ 
+    
+
+  <!-- Recommendation-->
+     <section id="recom-top-border">
+       <!-- Top gradient border -->
+     </section>
+
+     <section id="recommendation" class="text-center py-5">
+        <div class="container">
+          <div class="recom">
+            <h5>Get Personalized Recommendation</h5>
+            <p class="lead">Answer a few question for your top picks</p> 
+            <button type="button" class="btn btn-dark" action="" name="">Get Started</button>        
+          </div>
+       </div>
+     </section>
+
+  <!--End Recommendation-->
+   
+  <!--Top Categories-->
+   
+   <section id="top-cat" class="bg-light py-5">
+     <div class="container">
+       
+       <h5 class="py-3">Top Categories</h5>
+       
+       <div class="row">
+         <div class="col-md-4 ">
+          <div class="card  mb-resp">
+            <div class="card-body">
+              
+              <p class="lead"> <i class="fas fa-chess fa-2x"></i> Math</p>  
+            </div>
+          </div>
+            
+         </div>
+
+         <div class="col-md-4">
+          <div class="card  mb-resp">
+            <div class="card-body">
+              
+              <p class="lead"> <i class="fas fa-chess-bishop fa-2x"></i> Physics</p>  
+            </div>
+          </div>
+            
+         </div>
+
+         <div class="col-md-4">
+          <div class="card  mb-resp">
+            <div class="card-body">
+              
+              <p class="lead"> <i class="fas fa-chess-king fa-2x"></i> Chemistry</p>  
+            </div>
+          </div>
+            
+         </div>
+
+         <div class="col-md-4">
+          <div class="card  mb-resp">
+            <div class="card-body">
+              
+              <p class="lead"> <i class="fas fa-chess-knight fa-2x"></i> Biology</p>  
+            </div>
+          </div>
+            
+         </div>
+
+         <div class="col-md-4">
+          <div class="card  mb-resp">
+            <div class="card-body">
+              
+              <p class="lead"> <i class="fas fa-chess-pawn fa-2x"></i> ICT</p>  
+            </div>
+          </div>
+            
+         </div>
+
+         <div class="col-md-4">
+          <div class="card  mb-resp">
+            <div class="card-body">
+              
+              <p class="lead"> <i class="fas fa-chess-rook fa-2x"></i> Bangla</p>  
+            </div>
+          </div>
+            
+         </div>
+
+         <div class="col-md-4">
+          <div class="card  mb-resp">
+            <div class="card-body">
+              
+              <p class="lead"> <i class="fas fa-chess-queen fa-2x"></i> English</p>  
+            </div>
+          </div>
+            
+         </div>
+
+         
+
+
+       </div>
+     </div>
+   </section>
+
+
+  <!--End Top Categories-->
+
+  <!--What Our Users Want to Say-->
+
+   <section id="user" class="bg-light  ">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+          <h1 class="text-secondary pb-3">
+            <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+            What Our Users Want To Say
+          </h1>
+          
+          
+          </div>
+        </div>
+      </div>
+
+      <div class="row  py-5">
+  
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                      
+                        <!-- person1 -->
+                        <div class="col-sm-12">
+                          <div class="card mb-resp">
+                            <div class="card-body p-4  ">
+                              
+                              <h class="font-weight-bold"> <img src="img/person1.jpg" alt="" class="img-fluid rounded-circle mb-3"> Susan Williams</h>
+                              
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere?</p>
+                              
+                            </div>
+                          </div>   
+                        </div>
+
+                       
+                      
+              </div>
+
+               <!-- person2 -->
+                      <div class="carousel-item">             
+                        <div class="col-sm-12 ">
+                          <div class="card mb-resp">
+                            <div class="card-body p-4  ">
+                              
+                              <h class="font-weight-bold"> <img src="img/person2.jpg" alt="" class="img-fluid rounded-circle mb-3"> Susan Williams</h>
+                              
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere?</p>
+                              
+                            </div>
+                          </div>   
+                        </div>
+                       </div> 
+
+                        <!-- person3 -->
+                      <div class="carousel-item">  
+                        <div class="col-sm-12">
+                          <div class="card mb-resp">
+                            <div class="card-body p-4  ">
+                              
+                              <h class="font-weight-bold"> <img src="img/person3.jpg" alt="" class="img-fluid rounded-circle mb-3"> Susan Williams</h>
+                              
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere?</p>
+                              
+                            </div>
+                          </div>   
+                        </div>
+                      </div>  
+              <div class="carousel-item">
+                      <!-- person4 -->
+                        <div class="col-sm-12">
+                          <div class="card mb-resp">
+                            <div class="card-body p-4  ">
+                              
+                              <h class="font-weight-bold"> <img src="img/person4.jpg" alt="" class="img-fluid rounded-circle mb-3"> Susan Williams</h>
+                              
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis est assumenda reprehenderit fugit eius, voluptatem quae quis labore natus facere?</p>
+                              
+                            </div>
+                          </div>   
+                        </div>
+              </div>
+              
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark rounded-circle p-4" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon bg-dark rounded-circle p-4" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- End What Our Users Want To Say -->
+
+  <!--advertise-->
+
+   <section id="advertise" class="my-5 py-5">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-6 text-center p-5" id="ad1">
+
+         <h5>Teach on PTRS</h5>
+            <p class="lead">Teach what you love. Udemy gives you the tools to create an online course.</p> 
+            <button type="button" class="btn btn-danger" action="" name="">Start Teaching</button>
+         
+         </div>
+
+         <div class="col-md-6 text-center p-5">
+
+         <h5>PTRS for Business</h5>
+            <p class="lead">Get unlimited access to 3,000+ of Udemy’s top courses for your team.</p> 
+            <button type="button" class="btn btn-danger" action="" name="">Get PTRS for Business</button>
+         
+         </div>
+       </div>
+     </div>
+   </section>
+
+   <!--Endadvertise-->
+
+
+  <!--footer-->
+
+  <section id="newsletter" class="bg-dark text-white py-5">
+    <div class="container">
+
+      <div class="row text-center">
+        <div class="col ml-auto">
+         <h1>Subcribe To Us</h1>
+          <p class="lead">
+            Copyright &copy;
+            <span id="year"></span>
+          </p>
+        </div>
+      </div> 
+
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter Name">
+        </div>
+        <div class="col-md-4">
+          <input type="email" class="form-control form-control-lg mb-resp" placeholder="Enter Email">
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-primary btn-lg btn-block">
+            <i class="fas fa-envelope-open-o"></i> Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>  
+    
+
+<script>
+$(function () {
+ 
+  $("#rateYo1").rateYo({
+    rating: 3.6
+  });
+
+  $("#rateYo2").rateYo({
+    rating: 2.6
+  });
+
+  $("#rateYo3").rateYo({
+    rating: 1.6
+  });
+
+  $("#rateYo4").rateYo({
+    rating: .6
+  });
+
+  $("#rateYo5").rateYo({
+    rating: 5
+  });
+
+  $("#rateYo6").rateYo({
+    rating: 2
+  });
+
+  $("#rateYo7").rateYo({
+    rating: 4.5
+  });
+
+  $("#rateYo8").rateYo({
+    rating: 1.4
+  });
+ 
+});
+</script>
+
+  
+
+        <script>
+          $(document).ready(function(){
+            $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+            });
+          });
+        </script>
+
+    <script>
+       // Get the current year for the copyright
+       $('#year').text(new Date().getFullYear());
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>PTRS</title>
+  <link rel="icon" type="image/ico" href="img/logo.png" />
+  
+</head>
+
+<body>
+<!-- START HERE -->
+      
+<!--Navbar-->
+
+<nav class="navbar navbar-expand-xl navbar-light bg-light ">
+
+  <!-- Navbar-Brand -->
+  <a class="navbar-brand" href="#"><img src="img/logo.png" width="50px" alt=""> PTRS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Categories -->
+  <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-2 ">
+      <li class="nav-item dropdown ">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Categories
+        </button>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Subjects</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Math</a>
+            <a class="dropdown-item" href="#">Physics</a>
+            <a class="dropdown-item" href="#">Chemistry</a>
+            <a class="dropdown-item" href="#">Biology</a>
+            <a class="dropdown-item" href="#">Bangla</a>
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">Religion</a>
+        </div>
+      </li>
+                              
+    </ul>
+
+    <!-- Form -->
+    <form class="form-inline mx-2 my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+    <ul class="navbar-nav mr-auto">
+
+      
+      
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="tutors.html">Learn With PTRS</a>
+      </li>
+            
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="#">Courses In PTRS</a>
+      </li>
+      
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+      
+      <li class="nav-item dropdown mx-2">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <i class="fas fa-archive"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <h6 class="dropdown-header">Archieve Is Empty</h6>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Maths</a>
+          <a class="dropdown-item" href="#">Physics</a>
+          <a class="dropdown-item" href="#">Chemistry</a>
+          <a class="dropdown-item" href="#">Biology</a>
+          <a class="dropdown-item" href="#">Bangla</a>
+          <a class="dropdown-item" href="#">English</a>
+        </div>
+      </li>
+      
+      <li class="nav-items mx-2">
+        <a class="nav-link" href="#">
+        <i class="fas fa-user-plus"></i> Register
+        </a>
+      </li>
+      
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="">
+        <i class="fas fa-sign-in-alt"></i> Log In
+        </a>
+      </li>
+       
+    </ul>
+    
+    
+  </div>
+</nav>     
+ 
+
+<!--EndNav-->
+
+<!--breadcrumb-->
+
+  <nav  id="nav3">
+    <div class="container">
+      <h1>Tutors</h1>
+    </div>
+  
+  </nav>
+
+
+   <nav aria-label="breadcrumb" class="bg-light">
+     <div class="container">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Tutors</li>
+        </ol>
+     </div>
+   </nav>
+    
+    <div class="container" >
+         
+        <div id="bread-toggle">
+           <div class="d-flex"> 
+            <ul class="navbar-nav mr-auto">
+      
+              <li class="nav-item dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Service Includes
+                </button>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">5 Days A Week</a>
+                  <a class="dropdown-item" href="#">3 Days A Week</a>
+                  <a class="dropdown-item" href="#">DayShift</a>
+                  <a class="dropdown-item" href="#">Nightshift</a>
+                  <a class="dropdown-item" href="#">Mid-dayshift</a>
+                </div>
+              </li>
+              
+            </ul>
+
+     
+            <ul class="navbar-nav ml-auto">
+      
+              <li class="nav-item dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Best Selling
+                </button>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Recommended</a>
+                  <a class="dropdown-item" href="#">New Arrival</a>
+                </div>
+              </li>
+              
+            </ul>
+          </div>  
+
+        </div>  
+        
+    </div>
+
+ <!--Endbreadcrumb-->
+
+<!--Section-->
+<section id="searching" class="bg-light my-5 text-secondary py-5">
+  <div class="container">
+     <div class="row">
+       <div class="col-md-3">
+         <div class="py-2">
+            <h4>Refine Results</h4>
+            <p class="py-2"> <a class="text-secondary" href="">All in Mathematics</a></p>
+            <p class="py-2"> <a class="text-secondary" href="">All in Physics</a></p>
+            <p class="py-2"> <a class="text-secondary" href="">All in Chemistry</a></p>
+            <p class="py-2"> <a class="text-secondary" href="">All in Biology</a></p>
+            <p class="py-2"> <a class="text-secondary" href="">All in ICT</a></p>
+            <p class="py-2"> <a class="text-secondary" href="">All in Bangla</a></p>
+            <p class="py-2"> <a class="text-secondary" href="">All in English</a></p>
+         </div> 
+         <div class="dropdown-divider"></div>
+
+         <div class="py-2">
+            <h4>Study time</h4>
+            <div class="checkbox">
+            <label><input type="checkbox" value=""> Day</label>
+            </div>
+            <div class="checkbox">
+            <label><input type="checkbox" value=""> Mid-day</label>
+            </div>
+            <div class="checkbox">
+            <label><input type="checkbox" value=""> Night</label>
+            </div>
+         </div>
+         <div class="dropdown-divider"></div>
+
+         <div class="py-2">
+            <h4>Service Includes</h4>
+            <div class="checkbox">
+            <label><input type="checkbox" value=""> 1 Test in a week</label>
+            </div>
+            <div class="checkbox">
+            <label><input type="checkbox" value=""> 2 Test in a week</label>
+            </div>
+            <div class="checkbox">
+            <label><input type="checkbox" value=""> 1 Test in 2 weeks</label>
+            </div>
+            <div class="checkbox">
+            <label><input type="checkbox" value=""> 1 Test in a month</label>
+            </div>
+         </div>
+         <div class="dropdown-divider"></div>
+
+         <div class="py-2">
+            <h4>Max Price</h4>
+            <div class="input-group">
+              <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              <div class="input-group-append">
+                <span class="input-group-text ">$</span>
+                <span class="input-group-text ">0.00</span>
+              </div>
+            </div>
+         </div>
+         <div class="dropdown-divider"></div>
+
+         <div class="py-2">
+            <h4>Online Status</h4>
+            <div class="checkbox">
+              <label><input type="checkbox" value=""> Online</label>
+            </div>
+         </div>
+        <div class="dropdown-divider"></div>
+
+         <div class="py-2">
+            <h4>Select Language</h4>
+            <div class="radio">
+                <label><input type="radio" name="optradio"> Bangla Medium</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="optradio"> English Medium</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="optradio"> Dakhil/Madrasa</label>
+            </div>
+         </div>
+         <div class="dropdown-divider"></div>
+
+         <div class="py-2">
+            <h4>Select level</h4>
+            <div class="checkbox">
+                <label><input type="checkbox" value=""> Top Rated Tutor</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value=""> Experienced Tutor</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value=""> Level 2 tutor</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value=""> Level 1 tutor</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value=""> New Tutor</label>
+            </div>
+         </div>
+         <div class="dropdown-divider"></div>
+
+         <div class="py-2">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><h4>Select Location</h4></label>
+                <select class="form-control form-control-sm">
+                  <option>Mirpur</option>
+                  <option>Dhanmondi</option>
+                  <option>Mohammadpur</option>
+                  <option>Shyamoli</option>
+                  <option>Bonani</option>
+                  <option>Gulshan</option>
+                  <option>Uttara</option>
+                </select>
+            </div>
+         </div>   
+
+       </div>
+
+        
+         
+          <div class="col text-center">
+            <div class="card-columns">
+             <div class="card" style="width: 16rem;">
+               <img class="card-img-top img-fluid rounded-circle w-50 mb-3" src="img/person1.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Susan Williams</h5>
+                 <h6>Physics</h6>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <div id="rateYo1" class="rating pl-5"></div>
+                 <script src="jquery.js"></script>
+                 <script src="jquery.rateyo.js"></script>
+                           
+                 <div class="d-flex justify-content-center">
+                   <div class="p-4">
+                     <a href="http://facebook.com">
+                     <i class="fab fa-facebook"></i>
+                     </a>
+                   </div>
+                                
+                   <div class="p-4">
+                     <a href="http://twitter.com">
+                     <i class="fab fa-twitter"></i>
+                     </a>
+                   </div>
+
+                   <div class="p-4">
+                     <a href="http://instagram.com">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                   </div>
+                 </div>
+                 <a href="#" class="btn btn-lg btn-secondary">View More</a>                 
+               </div>
+             </div>
+             <!--2-->
+             <div class="card" style="width: 16rem;">
+               <img class="card-img-top img-fluid rounded-circle w-50 mb-3" src="img/person2.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Susan Williams</h5>
+                 <h6>Physics</h6>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <div id="rateYo2" class="rating pl-5"></div>
+                 <script src="jquery.js"></script>
+                 <script src="jquery.rateyo.js"></script>
+                           
+                 <div class="d-flex justify-content-center">
+                   <div class="p-4">
+                     <a href="http://facebook.com">
+                     <i class="fab fa-facebook"></i>
+                     </a>
+                   </div>
+                                
+                   <div class="p-4">
+                     <a href="http://twitter.com">
+                     <i class="fab fa-twitter"></i>
+                     </a>
+                   </div>
+
+                   <div class="p-4">
+                     <a href="http://instagram.com">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                   </div>
+                 </div>
+                 <a href="#" class="btn btn-lg btn-secondary">View More</a>                 
+               </div>
+             </div>
+             <!--3-->
+             <div class="card" style="width: 16rem;">
+               <img class="card-img-top img-fluid rounded-circle w-50 mb-3" src="img/person3.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Bread Tushy</h5>
+                 <h6>Physics</h6>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <div id="rateYo3" class="rating pl-5"></div>
+                 <script src="jquery.js"></script>
+                 <script src="jquery.rateyo.js"></script>
+                           
+                 <div class="d-flex justify-content-center">
+                   <div class="p-4">
+                     <a href="http://facebook.com">
+                     <i class="fab fa-facebook"></i>
+                     </a>
+                   </div>
+                                
+                   <div class="p-4">
+                     <a href="http://twitter.com">
+                     <i class="fab fa-twitter"></i>
+                     </a>
+                   </div>
+
+                   <div class="p-4">
+                     <a href="http://instagram.com">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                   </div>
+                 </div>
+                 <a href="#" class="btn btn-lg btn-secondary">View More</a>                 
+               </div>
+             </div>
+             <!--End3-->
+             <!--4-->
+             <div class="card" style="width: 16rem;">
+               <img class="card-img-top img-fluid rounded-circle w-50 mb-3" src="img/person4.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Susan Williams</h5>
+                 <h6>Physics</h6>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <div id="rateYo4" class="rating pl-5"></div>
+                 <script src="jquery.js"></script>
+                 <script src="jquery.rateyo.js"></script>
+                           
+                 <div class="d-flex justify-content-center">
+                   <div class="p-4">
+                     <a href="http://facebook.com">
+                     <i class="fab fa-facebook"></i>
+                     </a>
+                   </div>
+                                
+                   <div class="p-4">
+                     <a href="http://twitter.com">
+                     <i class="fab fa-twitter"></i>
+                     </a>
+                   </div>
+
+                   <div class="p-4">
+                     <a href="http://instagram.com">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                   </div>
+                 </div>
+                 <a href="#" class="btn btn-lg btn-secondary">View More</a>                 
+               </div>
+             </div>
+             <!--End4-->
+             <!--5-->
+             <div class="card" style="width: 16rem;">
+               <img class="card-img-top img-fluid rounded-circle w-50 mb-3" src="img/person1.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Susan Williams</h5>
+                 <h6>Physics</h6>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <div id="rateYo5" class="rating pl-5"></div>
+                 <script src="jquery.js"></script>
+                 <script src="jquery.rateyo.js"></script>
+                           
+                 <div class="d-flex justify-content-center">
+                   <div class="p-4">
+                     <a href="http://facebook.com">
+                     <i class="fab fa-facebook"></i>
+                     </a>
+                   </div>
+                                
+                   <div class="p-4">
+                     <a href="http://twitter.com">
+                     <i class="fab fa-twitter"></i>
+                     </a>
+                   </div>
+
+                   <div class="p-4">
+                     <a href="http://instagram.com">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                   </div>
+                 </div>
+                 <a href="#" class="btn btn-lg btn-secondary">View More</a>                 
+               </div>
+             </div>
+             <!--End4-->
+             <!--6-->
+             <div class="card" style="width: 16rem;">
+               <img class="card-img-top img-fluid rounded-circle w-50 mb-3" src="img/person2.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Susan Williams</h5>
+                 <h6>Physics</h6>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <div id="rateYo6" class="rating pl-5"></div>
+                 <script src="jquery.js"></script>
+                 <script src="jquery.rateyo.js"></script>
+                           
+                 <div class="d-flex justify-content-center">
+                   <div class="p-4">
+                     <a href="http://facebook.com">
+                     <i class="fab fa-facebook"></i>
+                     </a>
+                   </div>
+                                
+                   <div class="p-4">
+                     <a href="http://twitter.com">
+                     <i class="fab fa-twitter"></i>
+                     </a>
+                   </div>
+
+                   <div class="p-4">
+                     <a href="http://instagram.com">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                   </div>
+                 </div>
+                 <a href="#" class="btn btn-lg btn-secondary">View More</a>                 
+               </div>
+             </div>
+             <!--End4-->
+             <!--7-->
+             <div class="card" style="width: 16rem;">
+               <img class="card-img-top img-fluid rounded-circle w-50 mb-3" src="img/person3.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Susan Williams</h5>
+                 <h6>Physics</h6>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <div id="rateYo7" class="rating pl-5"></div>
+                 <script src="jquery.js"></script>
+                 <script src="jquery.rateyo.js"></script>
+                           
+                 <div class="d-flex justify-content-center">
+                   <div class="p-4">
+                     <a href="http://facebook.com">
+                     <i class="fab fa-facebook"></i>
+                     </a>
+                   </div>
+                                
+                   <div class="p-4">
+                     <a href="http://twitter.com">
+                     <i class="fab fa-twitter"></i>
+                     </a>
+                   </div>
+
+                   <div class="p-4">
+                     <a href="http://instagram.com">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                   </div>
+                 </div>
+                 <a href="#" class="btn btn-lg btn-secondary">View More</a>                 
+               </div>
+             </div>
+             <!--End4-->
+             <!--8-->
+             <div class="card" style="width: 16rem;">
+               <img class="card-img-top img-fluid rounded-circle w-50 mb-3" src="img/person3.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Susan Williams</h5>
+                 <h6>Physics</h6>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <div id="rateYo8" class="rating pl-5"></div>
+                 <script src="jquery.js"></script>
+                 <script src="jquery.rateyo.js"></script>
+                           
+                 <div class="d-flex justify-content-center">
+                   <div class="p-4">
+                     <a href="http://facebook.com">
+                     <i class="fab fa-facebook"></i>
+                     </a>
+                   </div>
+                                
+                   <div class="p-4">
+                     <a href="http://twitter.com">
+                     <i class="fab fa-twitter"></i>
+                     </a>
+                   </div>
+
+                   <div class="p-4">
+                     <a href="http://instagram.com">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                   </div>
+                 </div>
+                 <a href="#" class="btn btn-lg btn-secondary">View More</a>                 
+               </div>
+             </div>
+             <!--End4-->
+             <!--9-->
+             <div class="card" style="width: 16rem;">
+               <img class="card-img-top img-fluid rounded-circle w-50 mb-3" src="img/person4.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Susan Williams</h5>
+                 <h6>Physics</h6>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <div id="rateYo9" class="rating pl-5"></div>
+                 <script src="jquery.js"></script>
+                 <script src="jquery.rateyo.js"></script>
+                           
+                 <div class="d-flex justify-content-center">
+                   <div class="p-4">
+                     <a href="http://facebook.com">
+                     <i class="fab fa-facebook"></i>
+                     </a>
+                   </div>
+                                
+                   <div class="p-4">
+                     <a href="http://twitter.com">
+                     <i class="fab fa-twitter"></i>
+                     </a>
+                   </div>
+
+                   <div class="p-4">
+                     <a href="http://instagram.com">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                   </div>
+                 </div>
+                 <a href="#" class="btn btn-lg btn-secondary">View More</a>                 
+               </div>
+             </div>
+             <!--End9-->
+            </div><!--EndCardColumn-->
+            <nav aria-label="Page navigation example">
+              <ul class="pagination my-5">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav> 
+          </div><!--EndCol-->
+           
+          
+          
+        
+        
+
+     </div><!--Row-->
+  </div>
+</section>      
+<!--Endsection-->
+   
+   <!--Advertise-->
+
+   <section id="advertise" class="my-5 py-5">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-6 text-center p-5" id="ad1">
+
+         <h5>Teach on PTRS</h5>
+            <p class="lead">Teach what you love. PTRS gives you the tools to create an online course.</p> 
+            <button type="button" class="btn btn-danger" action="" name="">Start Teaching</button>
+         
+         </div>
+
+         <div class="col-md-6 text-center p-5">
+
+         <h5>PTRS for Business</h5>
+            <p class="lead">Get unlimited access to 3,000+ of PTRS’s top courses for your team.</p> 
+            <button type="button" class="btn btn-danger" action="" name="">Get PTRS for Business</button>
+         
+         </div>
+       </div>
+     </div>
+   </section>
+
+   <!--Endadvertise-->
+
+
+  <!--footer-->
+
+  <section id="newsletter" class="bg-dark text-white py-5">
+    <div class="container">
+
+      <div class="row text-center">
+        <div class="col ml-auto">
+         <h1>Subcribe To Us</h1>
+          <p class="lead">
+            Copyright &copy;
+            <span id="year"></span>
+          </p>
+        </div>
+      </div> 
+
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter Name">
+        </div>
+        <div class="col-md-4">
+          <input type="email" class="form-control form-control-lg mb-resp" placeholder="Enter Email">
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-primary btn-lg btn-block">
+            <i class="fas fa-envelope-open-o"></i> Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script> 
+
+<script>
+$(function () {
+ 
+  $("#rateYo1").rateYo({
+    rating: 3.6
+  });
+
+  $("#rateYo2").rateYo({
+    rating: 2.6
+  });
+
+  $("#rateYo3").rateYo({
+    rating: 1.6
+  });
+
+  $("#rateYo4").rateYo({
+    rating: .6
+  });
+
+  $("#rateYo5").rateYo({
+    rating: 5
+  });
+
+  $("#rateYo6").rateYo({
+    rating: 2
+  });
+
+  $("#rateYo7").rateYo({
+    rating: 4.5
+  });
+
+  $("#rateYo8").rateYo({
+    rating: 1.4
+  });
+
+  $("#rateYo9").rateYo({
+    rating: 1.4
+  });
+ 
+});
+</script>
+
+  
+
+        <script>
+          $(document).ready(function(){
+            $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+            });
+          });
+        </script>
+
+    <script>
+       // Get the current year for the copyright
+       $('#year').text(new Date().getFullYear());
+    </script>
+
+</body>
+
+</html>

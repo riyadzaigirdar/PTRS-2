@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>PTRS</title>
+  <link rel="icon" type="image/ico" href="img/logo.png" />
+  
+</head>
+
+<body>
+<!-- START HERE -->
+      
+<!--Navbar-->
+
+<nav class="navbar navbar-expand-xl navbar-light bg-light ">
+
+  <!-- Navbar-Brand -->
+  <a class="navbar-brand" href="#"><img src="img/logo.png" width="50px" alt=""> PTRS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Categories -->
+  <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-2 ">
+      <li class="nav-item dropdown ">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Categories
+        </button>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Subjects</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Math</a>
+            <a class="dropdown-item" href="#">Physics</a>
+            <a class="dropdown-item" href="#">Chemistry</a>
+            <a class="dropdown-item" href="#">Biology</a>
+            <a class="dropdown-item" href="#">Bangla</a>
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">Religion</a>
+        </div>
+      </li>
+                              
+    </ul>
+
+    <!-- Form -->
+    <form class="form-inline mx-2 my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+    <ul class="navbar-nav mr-auto">
+
+      
+      
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="tutors.html">Learn With PTRS</a>
+      </li>
+            
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="#">Courses In PTRS</a>
+      </li>
+      
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+      
+      <li class="nav-item dropdown mx-2">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <i class="fas fa-archive"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <h6 class="dropdown-header">Archieve Is Empty</h6>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Maths</a>
+          <a class="dropdown-item" href="#">Physics</a>
+          <a class="dropdown-item" href="#">Chemistry</a>
+          <a class="dropdown-item" href="#">Biology</a>
+          <a class="dropdown-item" href="#">Bangla</a>
+          <a class="dropdown-item" href="#">English</a>
+        </div>
+      </li>
+      
+      <li class="nav-items mx-2">
+        <a class="nav-link" href="#">
+        <i class="fas fa-user-plus"></i> Register
+        </a>
+      </li>
+      
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="">
+        <i class="fas fa-sign-in-alt"></i> Log In
+        </a>
+      </li>
+       
+    </ul>
+    
+    
+  </div>
+</nav>     
+
+<!--EndNav-->
+
+<!--breadcrumb-->
+
+  <nav  id="nav3">
+    <div class="container">
+      <h1>Course's Specification</h1>
+    </div>
+  
+  </nav>
+
+
+   <nav aria-label="breadcrumb" class="bg-light" >
+     <div class="container">
+        <ol class="breadcrumb" id="tutor-spec-breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Tutors</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Course Specification</li>
+        </ol>
+     </div>
+   </nav>
+    
+    
+
+ <!--Endbreadcrumb-->
+
+  <!--Start Section-->
+  
+  <section id="course-spec" class="text-secondary py-5">
+    <div class="container">
+        <div class="row">
+         <div class="col-md-8 col-sm-12" id="main-course">
+            <img src="img/c1.jpg" width="100%" alt="">
+
+            <h3 class="black-color">SSC Bangla 1st Part</h3>
+            <button class="btn btn-secondary btn-block btn-lg my-5" data-toggle="modal" 
+            data-target="#inquiryModal"><span class="price"> 12.99 $ Only</span></button>
+            <p class="text-muted"><span class="font-weight-bold">Tutor:</span> <span class="font-italic">John Doe</span></p>
+            <div id="rateYo2"></div>
+            <script src="jquery.js"></script>
+            <script src="jquery.rateyo.js"></script>
+            <h4 id="views"> 800,000 Views</h4>
+
+                <div class="discription py-5 ">
+                <h3 class="dis-title font-weight-bold black-color">Description</h3>
+                <p>Published on May 12, 2019</p>
+                <p class="black-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe rerum possimus sunt, qui mollitia voluptates repellendus aut quibusdam incidunt neque eum in corrupti et eos, labore blanditiis iusto, obcaecati ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quasi laborum eligendi nisi sint harum nesciunt dolorum, explicabo unde odit?</p>
+                </div>
+
+                <div class="comments black-color">
+                  <h3 class="reviews">Reviews</h3>
+                    <div class="form-group py-5">
+                        
+                        <textarea class="form-control" rows="5" id="comment" placeholder="Comment Here..."></textarea>
+                        <a href="#" class="btn btn-primary btn-lg pull-right" role="button" aria-disabled="false">Post</a>
+                    </div>
+                  
+                    <ul class="media-list pl-0 py-5">
+                        <li class="media">
+                            <a href="#" class="pull-left">
+                                <img src="https://bootdey.com/img/Content/user_1.jpg" alt="" class="img-circle">
+                            </a>
+                            <div class="media-body">
+                                <span class="text-muted pull-right">
+                                    <small class="text-muted">30 min ago</small>
+                                </span>
+                                <strong class="text-success">@MartinoMont</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Lorem ipsum dolor sit amet, <a href="#">#consecteturadipiscing </a>.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <a href="#" class="pull-left">
+                                <img src="https://bootdey.com/img/Content/user_2.jpg" alt="" class="img-circle">
+                            </a>
+                            <div class="media-body">
+                                <span class="text-muted pull-right">
+                                    <small class="text-muted">30 min ago</small>
+                                </span>
+                                <strong class="text-success">@LaurenceCorreil</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Lorem ipsum dolor <a href="#">#ipsumdolor </a>adipiscing elit.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <a href="#" class="pull-left">
+                                <img src="https://bootdey.com/img/Content/user_3.jpg" alt="" class="img-circle">
+                            </a>
+                            <div class="media-body">
+                                <span class="text-muted pull-right">
+                                    <small class="text-muted">30 min ago</small>
+                                </span>
+                                <strong class="text-success">@JohnNida</strong>
+                                <p>
+                                    Lorem ipsum dolor <a href="#">#sitamet</a> sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>   
+                    
+                    
+                </div>
+               
+         </div>
+         
+         <div class="col-md-4" id="other-courses">
+         <h4 class="d-sm-block">Other Courses</h4>
+          <ul class="cour">
+
+            <li class="course-items">
+              <a href="" class="course-links">
+              <img src="img/c2.jpg" width="200px" alt="">
+              <p class="">SSC Bangla 1st</p>
+              </a>
+            </li>
+
+            <li class="course-items">
+              <a href="" class="course-links">
+              <img src="img/c3.jpg" width="200px" alt="">
+              <p> SSC Bangla 1st </p>
+              </a>
+            </li>
+
+            <li class="course-items">
+              <a href="" class="course-links">
+              <img src="img/c4.jpg" width="200px" alt="">
+              <p> SSC Bangla 1st </p>
+              </a>
+            </li>
+
+            <li class="course-items">
+              <a href="" class="course-links">
+              <img src="img/c5.jpg" width="200px" alt="">
+              <p> SSC Bangla 1st </p>
+              </a>
+            </li>
+
+            <li class="course-items">
+              <a href="" class="course-links">
+              <img src="img/c6.jpg" width="200px" alt="">
+              <p> SSC Bangla 1st </p>
+              </a>
+            </li>
+
+            <li class="course-items">
+              <a href="" class="course-links">
+              <img src="img/c7.jpg" width="200px" alt="">
+              <p> SSC Bangla 1st </p>
+              </a>
+            </li>
+
+            <li class="course-items">
+              <a href="" class="course-links">
+              <img src="img/c8.jpg" width="200px" alt="">
+              <p> SSC Bangla 1st </p>
+              </a>
+            </li>
+
+          </ul>
+         </div>
+
+      </div> 
+    </div>
+  </section>
+
+
+  <!--End Section-->
+
+  
+
+   
+
+
+  <!--footer-->
+
+  <section id="newsletter" class="bg-dark text-white py-5">
+    <div class="container">
+
+      <div class="row text-center">
+        <div class="col ml-auto">
+         <h1>Subcribe To Us</h1>
+          <p class="lead">
+            Copyright &copy;
+            <span id="year"></span>
+          </p>
+        </div>
+      </div> 
+
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter Name">
+        </div>
+        <div class="col-md-4">
+          <input type="email" class="form-control form-control-lg mb-resp" placeholder="Enter Email">
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-primary btn-lg btn-block">
+            <i class="fas fa-envelope-open-o"></i> Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>   
+    
+
+<script>
+$(function () {
+ 
+  $("#rateYo1").rateYo({
+    rating: 3.6
+  });
+
+  $("#rateYo2").rateYo({
+    rating: 2.6
+  });
+
+  $("#rateYo3").rateYo({
+    rating: 1.6
+  });
+
+  $("#rateYo4").rateYo({
+    rating: .6
+  });
+
+  $("#rateYo5").rateYo({
+    rating: 5
+  });
+
+  $("#rateYo6").rateYo({
+    rating: 2
+  });
+
+  $("#rateYo7").rateYo({
+    rating: 4.5
+  });
+
+  $("#rateYo8").rateYo({
+    rating: 1.4
+  });
+
+  $("#rateYo9").rateYo({
+    rating: 1.4
+  });
+ 
+});
+</script>
+
+  
+
+        <script>
+          $(document).ready(function(){
+            $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+            });
+          });
+        </script>
+
+    <script>
+       // Get the current year for the copyright
+       $('#year').text(new Date().getFullYear());
+    </script>
+
+    
+  
+
+    
+
+</body>
+
+</html>

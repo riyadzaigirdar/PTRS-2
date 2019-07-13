@@ -1,0 +1,468 @@
+body {
+  background: #fff;
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Style the search field */
+
+form.search input[type='text'] {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid rgb(240, 240, 240);
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.search button {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  background: #f1f1f1;
+  color: #2196f3;
+  font-size: 17px;
+  border: 1px solid rgb(240, 240, 240);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #2196f3;
+  color: #f1f1f1;
+}
+
+/* Clear floats */
+form.search::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+#home-section {
+  background: url(../img/showcase1.jpg) no-repeat top center fixed/cover;
+  position: relative;
+  min-height: 600px;
+
+  padding-top: 6rem;
+}
+
+#home-section .schedule {
+  position: relative;
+  padding-top: 100px;
+  
+}
+
+#home-section .schedule h5 {
+  color: rgb(250, 249, 249);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.17;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 4px rgba(41, 48, 59, 0.55);
+}
+
+#home-section .schedule p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 1.46;
+  
+  text-shadow: 0 2px 4px rgba(41, 48, 59, 0.55);
+}
+
+/* Style the search field */
+
+#home-section .schedule form.search input[type='text'] {
+  padding: 12px;
+  font-size: 17px;
+  border: 1px solid rgb(240, 240, 240);
+  float: left;
+  width: 75%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+#home-section .schedule form.search button {
+  float: left;
+  width: 15%;
+  padding: 12px;
+  background: #f1f1f1;
+  color: #2196f3;
+  font-size: 17px;
+  border: 1px solid rgb(240, 240, 240);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+#home-section .schedule form.search button:hover {
+  background: #2196f3;
+  color: #f1f1f1;
+}
+
+/* Clear floats */
+#home-section .schedule form.search::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+#courses a{
+  text-decoration: none;
+}
+
+
+.card-body {
+  padding: 0rem;
+  padding-bottom: 10px;
+}
+
+
+
+
+#recom-top-border {
+  background: linear-gradient(220deg, #ec5252 -30%, #6e1a52 70%);
+  min-height: 10px;
+}
+
+#recommendation {
+  background: url('../img/showcase2.jpg');
+  min-height: 400px;
+  color: #f7f8fa;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.recom {
+  padding-top: 100px;
+}
+
+.recom h5 {
+  font-size: 24px;
+}
+
+.recom p {
+  font-size: 15px;
+}
+
+.recom button {
+  padding: 10px 30px 10px 30px;
+}
+
+.recom button:hover {
+  color: #f7f8fa;
+}
+
+#top-cat .container h5 {
+  font-size: 24px;
+  color: #29303b;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#top-cat .card .card-body {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  box-shadow: 2px 2px 5px #4d5758;
+}
+
+#top-cat .card .card-body {
+  font-size: 15px;
+}
+
+#top-cat .card .card-body:hover {
+  box-shadow: 2px 2px 5px #929c9c;
+}
+
+#user img {
+  width: 60px;
+}
+#user .card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+#user .fab {
+  color: #fff;
+}
+#user p {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.6;
+}
+
+#user .carousel-control-prev {
+  padding-right: 150px;
+}
+
+#user .carousel-control-next {
+  padding-left: 150px;
+}
+
+#advertise {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#advertise h5 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#advertise #ad1 {
+  border-right: 1px #dedee7 solid;
+}
+
+#advertise p {
+  font-size: 15px;
+}
+
+#advertise button {
+  padding: 10px 30px 10px 30px;
+}
+
+#advertise button:hover {
+  color: #f7f8fa;
+}
+
+#newsletter button {
+  padding: 5px;
+}
+
+.mb-resp {
+  margin-bottom: 10px;
+}
+
+/*home style ends */
+
+/*Tutors Style Starts style ends */
+
+#nav3 {
+  border-top: 1px #29303b solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(220deg, #ec5252 -30%, #6e1a52 70%);
+  border-bottom: 1px #29303b solid;
+  margin-bottom: none;
+}
+
+#nav3 h1 {
+  color: white;
+  font-style: inherit;
+}
+
+.breadcrumb {
+  margin-bottom: 0px;
+}
+
+.breadcrumb a {
+  color: #333;
+}
+
+.breadcrumb .breadcrumb-item {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(104, 95, 95);
+}
+
+#bread-toggle {
+  border-bottom: 1px rgb(202, 204, 194) solid;
+  border-top: 1px rgb(202, 204, 194) solid;
+  
+}
+
+
+
+#searching img{
+  margin-top:0px;
+  
+}
+
+#tutor-cont {
+  float: right;
+  padding-top: 20px;
+}
+
+#tutor-cont img {
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+#tutor-cont .price {
+  float: right;
+  font: 18px 'oper sans';
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#tutor-cont .btn {
+  width: 70%;
+}
+
+#tutor-cont .btn:hover {
+  background: #0d0d0e;
+  color: #ffffff;
+}
+
+#tutor-cont .card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+
+
+
+#tutor-cont .fab {
+  color: #fff;
+}
+
+
+
+#tutor-spec-breadcrumb{
+  border-bottom: 1px #c5c5c9 solid;
+}
+
+#tutor-spec-intro{
+  border-right: 1px #c5c5c9 solid;
+}
+
+.jq-ry-container {
+  position: relative;
+  padding: 0px;
+  padding-top: 10px;
+}
+
+
+#map {
+  height: 280px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+  
+ }
+
+ #main-course {
+   
+   border-right: 1px #c5c5c9 solid;
+ }
+
+
+
+.black-color{
+  color:#0d0d0e;
+ 
+}
+
+.comments textarea{
+  height:50px;
+}
+
+.comments img{
+ border-radius:30px;
+ 
+}
+
+.comments p{
+  
+  display:inline;
+ }
+
+.course-items{
+  padding-bottom: 10px;
+}
+
+
+#course-spec button{
+  width:50%;
+  float: right;
+  
+}
+
+#course-spec .price{
+  float:none;
+}
+
+#other-courses ul {
+  list-style-type: none;
+}
+
+#other-courses a{
+text-decoration: none;
+}
+
+#other-courses .course-items p{
+  display:inline;
+}
+
+
+
+.cour{
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.comments .btn{
+   margin-top: 10px;
+   
+   
+  
+}
+
+.comments .form-group button{
+
+  width: 10%;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  
+
+  
+
+  #main-course {
+   
+    border-right: none;
+  }
+  
+  
+  
+
+  
+
+  .search-cont .input-group input {
+    width: 60%;
+  }
+  
+  .search-cont .input-group span {
+    padding: 8.6px;
+  }
+
+  
+  
+ 
+  
+  
+
+}
+
+@media (max-width: 575px) {
+  
+ 
+
+  
+  
+
+  
+}
+
+@media (max-width: 485px) {
+  
+  
+
+  
+  
+
+  
+}
